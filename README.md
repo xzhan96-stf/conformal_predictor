@@ -11,15 +11,19 @@ In addition to making predictions, uncertainty quantification is also important 
 
 ## Input
 train.csv: N rows (N samples), D+1 columns (D possible labels); csv file;  first column is the training label (int, coded from 0 to D-1), the remaining D columns are the predicted probabilities for each of the D possible labels given by your machine learning classifier [the row sum should be 1].
+
 test.csv: N rows (N samples), D+1 columns (D possible labels); csv file;  first column is the predicted label (int, coded from 0 to D-1), the remaining D columns are the predicted probabilities for each of the D possible labels given by your machine learning classifier [the row sum should be 1].
 
 ## Output
 Credibility: how much reliability we have in selecting the current predicted label (the largest p-value)
+
 Confidence: how much reliability we have in rejecting the other possible labels (1 - the second largest p-value)
 
 ## How to use this script?
 1. Prepare the two csv files
+
 2. Download the .py file or the .exe file
+
 3. Method 1) Open a shell/command line window at the directory where the three files are and input: 
 
 `
@@ -36,9 +40,13 @@ Please cite our work if you use this handy script as an add-on to your machine l
 
 ## Reference
 [1] Liu L, Zhan X, Yang X, Guan X, Wu R, Wang Z, Luo Z, Wang Y, Li G. CPSC: Conformal prediction with shrunken centroids for efficient prediction reliability quantification and data augmentation, a case in alternative herbal medicine classification with electronic nose. IEEE Transactions on Instrumentation and Measurement. 2022 Jan 3;71:1-1.
+
 [2] Zhan X, Wang F, Gevaert O. Reliably Filter Drug-Induced Liver Injury Literature With Natural Language Processing and Conformal Prediction. IEEE Journal of Biomedical and Health Informatics. 2022 Jul 25;26(10):5033-41.
+
 [3] Liu L, Zhan X, Wu R, Guan X, Wang Z, Zhang W, Pilanci M, Wang Y, Luo Z, Li G. Boost AI power: Data augmentation strategies with unlabeled data and conformal prediction, a case in alternative herbal medicine discrimination with electronic nose. IEEE Sensors Journal. 2021 Aug 3;21(20):22995-3005.
+
 [4] Wang H, Zhan X, Liu L, Ullah A, Li H, Gao H, Wang Y, Hu R, Li G. Unsupervised cross-user adaptation in taste sensation recognition based on surface electromyography. IEEE Transactions on Instrumentation and Measurement. 2022 May 18;71:1-1.
+
 [5] Xu C, Xu Q, Liu L, Zhou M, Xing Z, Zhou Z, Zhou C, Li X, Wang R, Wu Y, Wang J. A Tri-light Warning System for Hospitalized COVID-19 Patients: Credibility-based Risk Stratification under Data Shift. medRxiv. 2022:2022-12.
 
 ## What does the code do?
