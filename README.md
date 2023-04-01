@@ -7,7 +7,7 @@ Author: Xianghao Zhan, Li Liu
 Date: 3/30/2023
 
 ## Goal
-In addition to making predictions, uncertainty quantification is also important for machine learning classification models. This piece of code will leverage conformal prediction to help you compute the reliability of the predictions with the predicted probabilities output by your machine learning classifier. You only need to input 1) the training labels with the predicted probabilities for each label; 2) the predicted labels for the test data with the predicted probabilities for each label, the script will output the credibility and confidence of the prediction. You can report them in your manuscript as the quantified reliability for the predictions.
+In addition to making predictions, uncertainty quantification is also important for machine learning classification models. This tool will leverage conformal prediction to help researchers compute the reliability of the predictions with the predicted probabilities output by any machine learning classifier. Users only need to input 1) the training labels with the predicted probabilities for each label; 2) the predicted labels for the test data with the predicted probabilities for each label, the script will output the credibility and confidence of the prediction. Users can report either/both of them in your manuscript as the quantified reliability for the classification predictions.
 
 ## Input
 train.csv: N rows (N samples), D+1 columns (D possible labels); csv file;  first column is the training label (int, coded from 0 to D-1), the remaining D columns are the predicted probabilities for each of the D possible labels given by your machine learning classifier [the row sum should be 1].
