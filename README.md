@@ -27,7 +27,7 @@ Confidence: how much reliability we have in rejecting the other possible labels 
 3. Method 1) Open a shell/command line window at the directory where the three files are and input: 
 
 `
-python Conformal_Prediction.py {train.csv} {test.csv} {D:the number of possible label}
+python Conformal_Predictor.py {train.csv} {test.csv} {D:the number of possible label}
 `
 
    Method 2) Opeh a shell/command line window at the directory where the three files are and input: 
