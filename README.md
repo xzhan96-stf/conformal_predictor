@@ -45,7 +45,7 @@ Publications that use the current method to compute non-conformity measurement t
 
 [2] Zhan X, Wang F, Gevaert O. Reliably Filter Drug-Induced Liver Injury Literature With Natural Language Processing and Conformal Prediction. IEEE Journal of Biomedical and Health Informatics. 2022 Jul 25;26(10):5033-41.
 
-[3] Xu C, Xu Q, Liu L, Zhou M, Xing Z, Zhou Z, Zhou C, Li X, Wang R, Wu Y, Wang J. A Tri-light Warning System for Hospitalized COVID-19 Patients: Credibility-based Risk Stratification under Data Shift. medRxiv. 2022:2022-12.
+[3] Xu C, Xu Q, Liu L, Zhou M, Xing Z, Zhou Z, Zhou C, Li X, Wang R, Wu Y, Wang J, Zhang L, Zhan X, Gevaert O, Lu G. A Tri-light Warning System for Hospitalized COVID-19 Patients: Credibility-based Risk Stratification under Data Shift. medRxiv. 2022:2022-12.
 
 [4] Wang H, Zhan X, Liu L, Ullah A, Li H, Gao H, Wang Y, Hu R, Li G. Unsupervised cross-user adaptation in taste sensation recognition based on surface electromyography. IEEE Transactions on Instrumentation and Measurement. 2022 May 18;71:1-1.
 
