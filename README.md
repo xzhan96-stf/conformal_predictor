@@ -39,15 +39,25 @@ python Conformal_Prediction.py {train.csv} {test.csv} {D:the number of possible 
 Please cite our work if you use this handy script as an add-on to your machine learning projects! Please reach out to Xianghao for potential suggestions and collaborations: xzhan96@stanford.edu
 
 ## Reference
+Publications that use the current method to compute non-conformity measurement to quantify uncertainty:
+
 [1] Liu L, Zhan X, Yang X, Guan X, Wu R, Wang Z, Luo Z, Wang Y, Li G. CPSC: Conformal prediction with shrunken centroids for efficient prediction reliability quantification and data augmentation, a case in alternative herbal medicine classification with electronic nose. IEEE Transactions on Instrumentation and Measurement. 2022 Jan 3;71:1-1.
 
 [2] Zhan X, Wang F, Gevaert O. Reliably Filter Drug-Induced Liver Injury Literature With Natural Language Processing and Conformal Prediction. IEEE Journal of Biomedical and Health Informatics. 2022 Jul 25;26(10):5033-41.
 
-[3] Liu L, Zhan X, Wu R, Guan X, Wang Z, Zhang W, Pilanci M, Wang Y, Luo Z, Li G. Boost AI power: Data augmentation strategies with unlabeled data and conformal prediction, a case in alternative herbal medicine discrimination with electronic nose. IEEE Sensors Journal. 2021 Aug 3;21(20):22995-3005.
+[3] Xu C, Xu Q, Liu L, Zhou M, Xing Z, Zhou Z, Zhou C, Li X, Wang R, Wu Y, Wang J. A Tri-light Warning System for Hospitalized COVID-19 Patients: Credibility-based Risk Stratification under Data Shift. medRxiv. 2022:2022-12.
 
 [4] Wang H, Zhan X, Liu L, Ullah A, Li H, Gao H, Wang Y, Hu R, Li G. Unsupervised cross-user adaptation in taste sensation recognition based on surface electromyography. IEEE Transactions on Instrumentation and Measurement. 2022 May 18;71:1-1.
 
-[5] Xu C, Xu Q, Liu L, Zhou M, Xing Z, Zhou Z, Zhou C, Li X, Wang R, Wu Y, Wang J. A Tri-light Warning System for Hospitalized COVID-19 Patients: Credibility-based Risk Stratification under Data Shift. medRxiv. 2022:2022-12.
+Publications related to conformal predictor for reliability quantification in general:
+
+[1] Liu L, Zhan X, Wu R, Guan X, Wang Z, Zhang W, Pilanci M, Wang Y, Luo Z, Li G. Boost AI power: Data augmentation strategies with unlabeled data and conformal prediction, a case in alternative herbal medicine discrimination with electronic nose. IEEE Sensors Journal. 2021 Aug 3;21(20):22995-3005.
+
+[2] Zhan X, Wang Z, Yang M, Luo Z, Wang Y, Li G. An electronic nose-based assistive diagnostic prototype for lung cancer detection with conformal prediction. Measurement. 2020 Jul 1;158:107588.
+
+[3] Zhan X, Guan X, Wu R, Wang Z, Wang Y, Luo Z, Li G. Online conformal prediction for classifying different types of herbal medicines with electronic nose.
+
+[4] Zhan X, Guan X, Wu R, Wang Z, Wang Y, Li G. Discrimination between alternative herbal medicines from different categories with the electronic nose. Sensors. 2018 Sep 4;18(9):2936.
 
 ## What does the code do?
 To compute the credibility and confidence, we leverage the conformal predictor based on the prediction probability and the steps can be summarized as the following steps:
