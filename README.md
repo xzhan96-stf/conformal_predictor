@@ -33,7 +33,7 @@ python Conformal_Predictor.py {train.csv} {test.csv} {D:the number of possible l
    Method 2) Opeh a shell/command line window at the directory where the three files are and input: 
    
    `
-   .\Conformal_Predictor.exe {train.csv} {test.csv} {D:the number of possible label}
+   ./Conformal_Predictor.exe {train.csv} {test.csv} {D:the number of possible label}
    `
 
 Please cite our work if you use this handy script as an add-on to your machine learning projects! Please reach out to Xianghao for potential suggestions and collaborations: xzhan96@stanford.edu
