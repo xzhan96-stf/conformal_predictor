@@ -4,7 +4,7 @@
 
 Author: Xianghao Zhan, Li Liu
 
-Date: 3/30/2023
+Date: 04/02/2023
 
 ## Goal
 In addition to making predictions, uncertainty quantification is also important for machine learning classification models. This tool will leverage conformal prediction to help researchers compute the reliability of the predictions with the predicted probabilities output by any machine learning classifier. Users only need to input 1) the training labels with the predicted probabilities for each label; 2) the predicted labels for the test data with the predicted probabilities for each label, the script will output the credibility and confidence of the prediction. Users can report either/both of them in your manuscript as the quantified reliability for the classification predictions.
