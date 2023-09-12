@@ -63,7 +63,7 @@ To compute the credibility and confidence, we leverage the conformal predictor b
 
 1) Convert the predicted probability to a nonconformity measurement: a metric to quantify how well a particular feature-label combination conforms to the training data. Here, we leveraged a design of the nonconformity measurement $\alpha_i$ that has been validated in previous machine learning applications [1,2,4,5]:
 
-alpha_i = 0.5 - ((p(y_i|x_i) - max p_{y!=y_i}(y_i|x_i)) / 2)
+$\alpha_i = 0.5 - ((p(y_i|x_i) - max p_{y!=y_i}(y_i|x_i)) / 2)$
 
 Here $y_i$ and $x_i$ denotes the label and feature of the $i-th$ sample. The predicted probability can be computed by any classifier that can output predicted probability: MLP, LR, RF, GBM, LDA.
 
